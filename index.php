@@ -50,20 +50,24 @@
         </div>
         <div id="contact">
             <div class="socialIcons">
-                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-linkedin fa-2x"></i>
+                <i class="fab fa-github fa-2x"></i>
             </div>
             <div class="contact-info">
                 <p>Martin Myrmarker</p>
                 <p>martin@myrmarker.se</p>
                 <p>070-7945070</p>
                 <br/>
-                <p>eller</p>
+                <p>eller</p><br/>
             </div>
             <form class="emailForm" method="post">
-                <input type="text"/><br/>
-                <input type="text"/><br/>
-                <input type=""/><br/>
-                <input type="submit"/>
+                <label>Namn</label><br/>
+                <input class="contactForm" type="text"/><br/>
+                <label>Email</label><br/>
+                <input class="contactForm" type="email"/><br/>
+                <label>Meddelande</label><br/>
+                <textarea class="contactForm"></textarea><br/>
+                <button class="submitButton" type="submit" >Skicka</button>
             </form>
             <h1 class="contactHeader">KONTAKT </h1>
         </div>
