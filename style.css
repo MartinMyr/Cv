@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'bebasneue';
+    src: url('/fonts/BebasNeue-Regular.woff') format('woff');
+}
+body{
+    padding:0;
+    margin:0;
+}
+
+#container{
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#content{
+    background-color: rgba(0, 0, 0, 0.60);
+}
+/*Menu*/
+nav{
+    width:100vw;
+    position:fixed;
+    height:7vh;
+    background-color:blue;
+}
+.links{
+    display:flex;
+    justify-content:center;
+}
+.links a{
+    margin:0 3vw 0 3vw;
+    vertical-align: middle;
+    display: table-cell;
+
+
+}
+
+
+
+/*Menu*/
+
+#start{
+    padding-top:60px;
+    height:93vh;
+
+    text-align:center;
+    padding-top:20vh;
+}
+.start-text{
+    font-size:170px;
+    font-family:"bebasneue" ;
+    color:white;
+    line-height: 35px;
+}
+.start-p{
+    line-height:0px;
+    color:#ffa700;
+    font-family:"bebasneue" ;
+    font-size:42px;
+    margin-top:-45px;
+}
+#case{
+    height:93vh;
+}
+
+/*CASE*/
+.caseHeader{
+    font-family:"bebasneue" ;
+    font-size:150px;
+    color:#ffa700;
+    margin:0 0 0 5vw;
+}
+#caseBoxWrapper{
+    display:flex;
+    justify-content:space-evenly;
+}
+.caseBox{
+    width:25vw;
+    height:60vh;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+/*CASE*/
+
+/*ABOUT*/
+#about{
+    height:93vh;
+    display:flex;
+}
+.portrait{
+    width:25vw;
+    height:93vh;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.portraitImg{
+    background-image: url("image/portrait.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 50%;
+    width:350px;
+    height:350px;
+    margin:0 auto;
+    margin-top:25vh;
+}
+.textAboutMe{
+    width:60vw;
+    height:93vh;
+}
+.textAboutMe>p{
+    padding:35vh 3vw 0 3vw;
+    text-align:center;
+    color:white;
+    font-size:30px;
+}
+.aboutHeader{
+    width:15vw;
+    height:93vh;
+}
+.aboutH{
+    font-family:"bebasneue" ;
+    font-size:150px;
+    color:#ffa700;
+    margin:0;
+}
+/*ABOUT*/
+
+/*CONTACT*/
+#contact{
+    height:100vh;
+    text-align:center;
+    color:white;
+}
+.contact-info{
+
+}
+.contactHeader{
+    font-family:"bebasneue" ;
+    font-size:150px;
+    color:#ffa700;
+}
+/*CONTACT*/
