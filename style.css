@@ -16,29 +16,64 @@ body{
 }
 #content{
     background-color: rgba(0, 0, 0, 0.60);
+    padding-top:50px;
 }
+
+
 /*Menu*/
-nav{
-    width:100vw;
-    position:fixed;
-    height:7vh;
-    background-color:blue;
+.logo{
+    flex-grow:1;
+    margin: auto;
 }
-.links{
+.socialIconsStart{
+    flex-grow:1;
+    margin: auto;
+}
+.socialIconsStart>.fa-github{
+    margin-left:1vw;
+}
+.fa-github{
+    color:white;
+}
+.fa-github:hover, .fa-linkedin:hover{
+    color:#ffa700;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100vw;
     display:flex;
     justify-content:center;
-}
-.links a{
-    margin:0 3vw 0 3vw;
-    vertical-align: middle;
-    display: table-cell;
-
+    text-align:center;
 
 }
+.linkWrapper{
+    flex-grow:2;
+    display:flex;
+    justify-content:center;
+    font-family: 'Abel', sans-serif;
+    font-weight:bold;
+
+}
 
 
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 25px 25px;
+    text-decoration: none;
+}
 
+.navbar a:hover {
+    background:#ffa700;
+    color: white;
+}
 /*Menu*/
+
+
 
 #start{
     padding-top:60px;
@@ -57,11 +92,12 @@ nav{
     line-height:0px;
     color:#ffa700;
     font-family:"bebasneue" ;
-    font-size:42px;
+    font-size:56px;
     margin-top:-45px;
 }
 #case{
-    height:93vh;
+    height:100vh;
+    padding-top:50px;
 }
 
 /*CASE*/
@@ -84,7 +120,8 @@ nav{
 
 /*ABOUT*/
 #about{
-    height:93vh;
+    padding-top:50px;
+    height:100vh;
     display:flex;
 }
 .portrait{
@@ -131,7 +168,9 @@ nav{
     text-align:center;
     color:white;
 }
-
+.socialIcons{
+    padding-top:50px;
+}
 .socialIcons>i{
     margin:4vh 0.5vw 4vh 0.5vw;
 }
@@ -140,6 +179,7 @@ nav{
     font-size:150px;
     color:#ffa700;
     margin:0;
+    margin-top:3vh;
 }
 .fa-linkedin{
     color: #4763a1;
@@ -152,8 +192,9 @@ nav{
     -moz-border-radius: 5px;
     border-radius: 5px;
     border:none;
-    margin:3vh 3vh;
+    margin:2vh 2vh;
     font-size:25px;
+    text-align:center;
 }
 .submitButton{
     font-size:20px;

@@ -4,28 +4,33 @@
     <title>Martin.M</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
 </head>
 <body>
 <div id="container">
     <div id="content">
-        <nav>
-            <div class="logo">
 
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/logga.gif" width="70px" height="60px">
+                </div>
+                <div class="linkWrapper">
+                    <a href="#content">Hem</a>
+                    <a href="#case">Case</a>
+                    <a href="#about">Om</a>
+                    <a href="#contact">Kontakt</a>
+                </div>
+                <div class="socialIconsStart">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <i class="fab fa-github fa-2x"></i>
+                </div>
             </div>
-            <div class="links">
-                <a href="">Test</a>
-                <a href="">Test</a>
-                <a href="">Test</a>
-                <a href="">Test</a>
-            </div>
-            <div class="socialIcons">
 
-            </div>
-        </nav>
         <div id="start">
             <h1 class="start-text">Martin</h1>
             <h1 class="start-text">Myrmarker</h1>
-            <p class="start-p">PROGRAMMING, BACKEND, FRONTEND, CSS, PHP, SQL</p>
+            <p class="start-p">PROGRAMMING - BACKEND - FRONTEND</p>
         </div>
         <div id="case">
             <h1 class="caseHeader">CASE</h1>
@@ -57,8 +62,8 @@
                 <p>Martin Myrmarker</p>
                 <p>martin@myrmarker.se</p>
                 <p>070-7945070</p>
-                <br/>
-                <p>eller</p><br/>
+
+                <p>eller:</p><br/>
             </div>
             <form class="emailForm" method="post">
                 <label>Namn</label><br/>
