@@ -5,16 +5,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 <div id="container">
     <div id="content">
 
-            <div class="navbar">
-                <div class="logo">
-                    <img src="image/logga.gif" width="70px" height="60px">
-                </div>
+            <div class="navbar" id="nav">
+                <div class="logo"></div>
                 <div class="linkWrapper">
                     <a href="#content">Hem</a>
                     <a href="#case">Case</a>
@@ -79,5 +77,6 @@
     </div>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>

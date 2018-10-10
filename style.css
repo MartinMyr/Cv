@@ -37,6 +37,7 @@ body{
 }
 .fa-github:hover, .fa-linkedin:hover{
     color:#ffa700;
+    cursor: pointer;
 }
 .navbar {
     overflow: hidden;
