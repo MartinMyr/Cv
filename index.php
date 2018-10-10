@@ -33,9 +33,9 @@
         <div id="case">
             <h1 class="caseHeader">CASE</h1>
             <div id="caseBoxWrapper">
-                <div class="caseBox"></div>
-                <div class="caseBox"></div>
-                <div class="caseBox"></div>
+                <div class="caseBox"><h2>COMING SOON</h2></div>
+                <div class="caseBox"><h2>COMING SOON</h2></div>
+                <div class="caseBox"><h2>COMING SOON</h2></div>
             </div>
         </div>
         <div id="about">
@@ -52,27 +52,32 @@
             </div>
         </div>
         <div id="contact">
-            <div class="socialIcons">
-                <i class="fab fa-linkedin fa-2x"></i>
-                <i class="fab fa-github fa-2x"></i>
-            </div>
-            <div class="contact-info">
-                <p>Martin Myrmarker</p>
-                <p>martin@myrmarker.se</p>
-                <p>070-7945070</p>
 
-                <p>eller:</p><br/>
+            <div class="contactWrapper">
+                <h1 class="contactHeader">KONTAKT</h1>
+                <div class="formWrapper">
+                    <div class="socialIcons">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                        <i class="fab fa-github fa-2x"></i>
+                    </div>
+                    <div class="contact-info">
+                        <p>Martin Myrmarker</p>
+                        <p>martin@myrmarker.se</p>
+                        <p>070-7945070</p>
+
+                        <p>eller:</p><br/>
+                    </div>
+                    <form class="emailForm" method="post">
+                        <label>Namn</label><br/>
+                        <input name="name" class="contactForm" type="text"/><br/>
+                        <label>Email</label><br/>
+                        <input name="email" class="contactForm" type="email"/><br/>
+                        <label>Meddelande</label><br/>
+                        <textarea name="message" class="contactForm"></textarea><br/>
+                        <button class="submitButton" type="submit" >Skicka</button>
+                    </form>
+                </div>
             </div>
-            <form class="emailForm" method="post">
-                <label>Namn</label><br/>
-                <input class="contactForm" type="text"/><br/>
-                <label>Email</label><br/>
-                <input class="contactForm" type="email"/><br/>
-                <label>Meddelande</label><br/>
-                <textarea class="contactForm"></textarea><br/>
-                <button class="submitButton" type="submit" >Skicka</button>
-            </form>
-            <h1 class="contactHeader">KONTAKT </h1>
         </div>
     </div>
 </div>

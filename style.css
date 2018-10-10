@@ -8,10 +8,14 @@ body{
 }
 
 #container{
-    background-image: url("image/background.jpg");
+    background-image: url("./image/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    max-width: 100%;
 
 }
 #content{
@@ -77,9 +81,7 @@ body{
 
 
 #start{
-    padding-top:60px;
     height:93vh;
-
     text-align:center;
     padding-top:20vh;
 }
@@ -99,6 +101,7 @@ body{
 #case{
     height:100vh;
     padding-top:50px;
+    background-color: rgba(0, 0, 0, 0.51);
 }
 
 /*CASE*/
@@ -115,20 +118,20 @@ body{
 .caseBox{
     width:25vw;
     height:60vh;
-    background-color: rgba(0, 0, 0, 0.52);
+    background-color: rgba(0, 0, 0, 0.70);
 }
 /*CASE*/
 
 /*ABOUT*/
 #about{
-    padding-top:50px;
     height:100vh;
     display:flex;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 .portrait{
-    width:25vw;
-    height:93vh;
+    width:360px;
     background-color: rgba(0, 0, 0, 0.85);
+    padding-top:50px;
 }
 .portraitImg{
     background-image: url("image/portrait.jpg");
@@ -143,17 +146,17 @@ body{
 }
 .textAboutMe{
     width:60vw;
-    height:93vh;
+    padding-top:50px;
 }
 .textAboutMe>p{
-    padding:35vh 3vw 0 3vw;
+    padding:35vh 3vw 0 0vw;
     text-align:center;
     color:white;
     font-size:30px;
 }
 .aboutHeader{
-    width:15vw;
-    height:93vh;
+   margin-right:5vw;
+    padding-top:50px;
 }
 .aboutH{
     font-family:"bebasneue" ;
@@ -165,22 +168,23 @@ body{
 
 /*CONTACT*/
 #contact{
+    background-color: rgba(0, 0, 0, 0.51);
     height:100vh;
     text-align:center;
     color:white;
-}
-.socialIcons{
     padding-top:50px;
 }
 .socialIcons>i{
-    margin:4vh 0.5vw 4vh 0.5vw;
+    margin:15vh 0.5vw 4vh 0.5vw;
 }
 .contactHeader{
+    width:15vw;
+    margin-top:0.5vh;
     font-family:"bebasneue" ;
     font-size:150px;
     color:#ffa700;
-    margin:0;
-    margin-top:3vh;
+    margin-left:5vw;
+    text-align: start;
 }
 .fa-linkedin{
     color: #4763a1;
@@ -212,7 +216,12 @@ textarea{
     height:60px!important;
     text-align:left!important;
 }
-
+.contactWrapper{
+    display:flex;
+}
+.formWrapper{
+    width:85vw;
+}
 .emailForm{
     width:500px;
     margin:0 auto;
@@ -222,3 +231,73 @@ textarea{
     margin: 0 !important;
 }
 /*CONTACT*/
+
+h2{
+    color:white;
+}
+
+@media ( max-width: 1060px ) {
+
+    #start{
+        padding-top:40vh;
+    }
+    #case{
+        background-color: unset;
+    }
+    #caseBoxWrapper{
+        display:block;
+        justify-content:unset;
+    }
+    .caseBox{
+        width:100vw;
+        height:28.5vh;
+        background-color: rgba(0, 0, 0, 0.70);
+        border-bottom:1px white;
+    }
+    .caseHeader{
+        height:10vh;
+    }
+
+
+    .contactHeader{
+        text-align: center;
+    }
+    .contactWrapper{
+        display:unset;
+        font-size:35px;
+    }
+    .formWrapper{
+        width:unset;
+    }
+    .emailForm{
+        width:500px;
+        margin:0 auto;
+    }
+    .socialIcons>i{
+        margin:6vh 0.5vw 4vh 0.5vw;
+    }
+    .submitButton{
+        font-size:35px;
+        width:400px;
+        height:100px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        color:white;
+        background-color:black;
+        border:none;
+    }
+    textarea{
+        height:100px!important;
+        text-align:left!important;
+    }
+    .contactForm{
+        width:90vw;
+        height:60px;
+        margin:2vh 2vh;
+        font-size:35px;
+    }
+    .emailForm{
+        width:100vw;
+    }
+}
