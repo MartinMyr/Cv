@@ -16,26 +16,16 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     max-width: 100%;
+    height:100vh;
 
 }
 #content{
     background-color: rgba(0, 0, 0, 0.60);
-    padding-top:50px;
+    height:100vh;
 }
 
 
-/*Menu*/
-.logo{
-    flex-grow:1;
-    margin: auto;
-}
-.socialIconsStart{
-    flex-grow:1;
-    margin: auto;
-}
-.socialIconsStart>.fa-github{
-    margin-left:1vw;
-}
+
 .fa-github{
     color:white;
 }
@@ -43,47 +33,12 @@ body{
     color:#ffa700;
     cursor: pointer;
 }
-.navbar {
-    overflow: hidden;
-    background-color: rgb(0, 0, 0);
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    display:flex;
-    justify-content:center;
-    text-align:center;
-
-}
-.linkWrapper{
-    flex-grow:2;
-    display:flex;
-    justify-content:center;
-    font-family: 'Abel', sans-serif;
-    font-weight:bold;
-
-}
-
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    padding: 25px 25px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background:#ffa700;
-    color: white;
-}
-/*Menu*/
 
 
 
 #start{
-    height:93vh;
     text-align:center;
-    padding-top:20vh;
+    padding-top:10vh;
 }
 .start-text{
     font-size:170px;
@@ -98,209 +53,64 @@ body{
     font-size:56px;
     margin-top:-45px;
 }
-#case{
-    height:100vh;
-    padding-top:50px;
-    background-color: rgba(0, 0, 0, 0.51);
-}
-
-/*CASE*/
-.caseHeader{
-    font-family:"bebasneue" ;
-    font-size:150px;
-    color:#ffa700;
-    margin:0 0 0 5vw;
-}
-#caseBoxWrapper{
+.socialIcons{
+    justify-content: right;
     display:flex;
-    justify-content:space-evenly;
-}
-.caseBox{
-    width:25vw;
-    height:60vh;
-    background-color: rgba(0, 0, 0, 0.70);
-}
-/*CASE*/
-
-/*ABOUT*/
-#about{
-    height:100vh;
-    display:flex;
-    background-color: rgba(0, 0, 0, 0.85);
-}
-.portrait{
-    width:360px;
-    background-color: rgba(0, 0, 0, 0.85);
-    padding-top:50px;
-}
-.portraitImg{
-    background-image: url("image/portrait.jpg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-    border-radius: 50%;
-    width:350px;
-    height:350px;
-    margin:0 auto;
-    margin-top:25vh;
-}
-.textAboutMe{
-    width:60vw;
-    padding-top:50px;
-}
-.textAboutMe>p{
-    padding:35vh 3vw 0 0vw;
-    text-align:center;
-    color:white;
-    font-size:30px;
-}
-.aboutHeader{
-   margin-right:5vw;
-    padding-top:50px;
-}
-.aboutH{
-    font-family:"bebasneue" ;
-    font-size:150px;
-    color:#ffa700;
-    margin:0;
-}
-/*ABOUT*/
-
-/*CONTACT*/
-#contact{
-    background-color: rgba(0, 0, 0, 0.51);
-    height:100vh;
-    text-align:center;
-    color:white;
-    padding-top:50px;
+    margin-left:80vw;
 }
 .socialIcons>i{
-    margin:15vh 0.5vw 4vh 0.5vw;
-}
-.contactHeader{
-    width:15vw;
-    margin-top:0.5vh;
-    font-family:"bebasneue" ;
-    font-size:150px;
-    color:#ffa700;
-    margin-left:5vw;
-    text-align: start;
+    padding:2vh 1vw 2vh 1vw;
 }
 .fa-linkedin{
     color: #4763a1;
 }
 
-.contactForm{
-    width:500px;
-    height:30px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border:none;
-    margin:2vh 2vh;
-    font-size:25px;
-    text-align:center;
-}
-.submitButton{
-    font-size:20px;
-    width:200px;
-    height:35px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    color:white;
-    background-color:black;
-    border:none;
-}
-textarea{
-    height:60px!important;
-    text-align:left!important;
-}
-.contactWrapper{
+
+#flex-wrapper{
     display:flex;
+    justify-content: space-between;
 }
-.formWrapper{
-    width:85vw;
+.pop{
+    width:300px;
+    height:200px;
+    background-color:red;
+    margin-top:20vh;
+    text-align:center;
+    border-radius:30px;
+    border:1px white solid;
 }
-.emailForm{
-    width:500px;
-    margin:0 auto;
+.popup-aboutme{
+    margin-left:10vw;
 }
-.emailForm>label{
-    text-align:left!important;
-    margin: 0 !important;
-}
-/*CONTACT*/
-
-h2{
-    color:white;
-}
-
-@media ( max-width: 1060px ) {
-
-    #start{
-        padding-top:40vh;
-    }
-    #case{
-        background-color: unset;
-    }
-    #caseBoxWrapper{
-        display:block;
-        justify-content:unset;
-    }
-    .caseBox{
-        width:100vw;
-        height:28.5vh;
-        background-color: rgba(0, 0, 0, 0.70);
-        border-bottom:1px white;
-    }
-    .caseHeader{
-        height:10vh;
-    }
-
-
-    .contactHeader{
-        text-align: center;
-    }
-
-    .formWrapper{
-        width:unset;
-    }
-    .emailForm{
-        width:500px;
-        margin:0 auto;
-    }
-    .socialIcons>i{
-        margin:6vh 0.5vw 4vh 0.5vw;
-    }
-    .submitButton{
-        font-size:20px;
-        width:400px;
-        height:50px;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        border-radius: 8px;
-        color:white;
-        background-color:black;
-        border:none;
-    }
-    textarea{
-        height:100px!important;
-        text-align:left!important;
-    }
-    .contactForm{
-        width:50vw;
-        height:30px;
-        margin:2vh 2vh;
-        font-size:25px;
-    }
-    .emailForm{
-        width:100vw;
-    }
-}
-@media ( max-width: 790px ) {
-.contactWrapper{
-
-}
+.popup-contact{
+    margin-right:10vw;
 }
 
+
+#buttons{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+    text-decoration: none;
+
+}
+.popup-button:nth-child(2){
+    background-color:#ffa700;
+}
+.popup-button{
+    text-decoration: none;
+    font-size: 20px;
+    padding:10px 40px 10px 40px;
+    border-radius: 30px;
+    border: none;
+    outline:none;
+    background-color:white;
+}
+
+.popup-button:hover{
+    background-color:#ffa700;
+    cursor: pointer;
+}
+.popup-button:hover:nth-child(2){
+    background-color:white;
+}
