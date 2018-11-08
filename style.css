@@ -8,7 +8,7 @@ body{
 }
 
 #container{
-    background-image: url("./image/background.jpg");
+    background-image: url("pika.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -59,6 +59,7 @@ body{
     justify-content: right;
     display:flex;
     margin-left:80vw;
+    font-size: 12px;
 }
 .socialIcons>i{
     padding:2vh 1vw 2vh 1vw;
@@ -113,6 +114,8 @@ body{
     justify-content: space-evenly;
     padding-top: 5vh;
     text-decoration: none;
+    max-width:900px;
+    margin:0 auto;
 
 }
 .popup-button:nth-child(2){
@@ -120,7 +123,7 @@ body{
 }
 .popup-button{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     padding:10px 40px 10px 40px;
     border-radius: 30px;
     border: none;
@@ -160,5 +163,25 @@ body{
         font-size:30px;
         margin-top:-10px;
     }
+    #buttons{
+        padding-top:25vh;
+    }
+    #buttons {
+        display: grid;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+    .popup-button {
+        margin-top: 20px;
+        font-size: 16px;
+
+    }
+    .socialIcons {
+        justify-content: center;
+        margin-left:0;
+
+    }
 
 }
+
+
