@@ -8,7 +8,7 @@ body{
 }
 
 #container{
-    background-image: url("pika.jpg");
+    background-image: url("/image/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -73,41 +73,50 @@ body{
     display:flex;
     justify-content: space-between;
 }
-.pop{
-    width:300px;
-    height:250px;
+
+.popup{
+    width:330px;
+    height:300px;
     margin-top:20vh;
     text-align:center;
     border-radius:30px;
-}
-.popup-aboutme{
-    margin-left:10vw;
+    transition: 1s;
+
 }
 .text>p{
     padding:5px;
+    transition: 1s;
 }
-.popup-contact{
-    margin-right:10vw;
+
+.boxes{
+    z-index: 1;
+    position:absolute;
+    width:100vw;
+    height:270px;
+    justify-content: center;
+    display:flex;
 }
 .text{
     font-family: 'Poppins', sans-serif;
-    color:white;
+    color:black;
 }
-.popup-contact>.text{
+.popup>.text{
     margin-top:7vh;
 }
 .fa-times{
     float:right;
     margin-right:15px;
     margin-top:7px;
-    color:white;
+    color:black;
 }
 .fa-times:hover{
     color:#ffa700;
     cursor:pointer;
     transform: rotate(20deg);
 }
-
+.text>a{
+    color:black;
+}
 
 #buttons{
     display:flex;
@@ -118,10 +127,10 @@ body{
     margin:0 auto;
 
 }
-.popup-button:nth-child(2){
+.button:nth-child(2){
     background-color:#ffa700;
 }
-.popup-button{
+.button{
     text-decoration: none;
     font-size: 16px;
     padding:10px 40px 10px 40px;
@@ -131,11 +140,11 @@ body{
     background-color:white;
 }
 
-.popup-button:hover{
+.button:hover{
     background-color:#ffa700;
     cursor: pointer;
 }
-.popup-button:hover:nth-child(2){
+.button:hover:nth-child(2){
     background-color:white;
 }
 
@@ -163,17 +172,20 @@ body{
         font-size:30px;
         margin-top:-10px;
     }
-    #buttons{
-        padding-top:25vh;
-    }
+
     #buttons {
         display: grid;
         padding-top: 90px;
         padding-bottom: 20px;
     }
-    .popup-button {
-        margin-top: 20px;
+    .button {
         font-size: 16px;
+        border-radius: 0px;
+        min-width:100vw;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: black;
+        color: white;
 
     }
     .socialIcons {
@@ -181,6 +193,16 @@ body{
         margin-left:0;
 
     }
+    .button:hover:nth-child(2){
+        background-color:#ffa700;
+    }
+    .button:nth-child(2){
+        background-color:black;
+    }
+    .popup{
+        margin-top:10vh;
+    }
+
 
 }
 

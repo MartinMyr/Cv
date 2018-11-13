@@ -1,6 +1,7 @@
 $( document ).ready(function() {
     $(".fa-times").hide();
-    $(".text-aboutme>p").hide();
+    $(".popup-aboutme").hide();
+    $(".popup-contact").hide();
 
     $( ".fa-linkedin" ).click(function() {
         window.open(' https://www.linkedin.com/in/martin-myrmarker-26b072150', '_blank');
@@ -10,7 +11,7 @@ $( document ).ready(function() {
     });
 
 
-  /*  $( ".about-button" ).click(function() {
+    $( ".about-button" ).click(function() {
         var textAboutMe = "<p>\n" +
             "Hej!<br/><br/>\n" +
             "Martin heter jag, 25år och bosatt i Göteborg.<br/>\n" +
@@ -18,31 +19,29 @@ $( document ).ready(function() {
             "Brinner för teknik och utveckling\n" +
             "</p>"
 
-        $(".popup-aboutme").css("background-color", "rgba(255, 255, 255, 0.31)");
-        //$(".popup-aboutme").css("border", "1px white solid");
-        $(".popup-aboutme>i").show();
-        $(".popup-aboutme>.text").html(textAboutMe);
-
+        $(".popup").css("background-color", "rgba(255, 255, 255)");
+        $(".popup>i").show();
+        $(".popup").show();
+        $(".popup>.text").html(textAboutMe);
     });
 
     $( ".contact-button" ).click(function() {
         var textContact = "<p>Martin Myrmarker<br/><br/>"+
-            "martin@myrmarker.se<br/><br/>"+
+            "<a href='mailto:martin@myrmarker.se'>martin@myrmarker.se</a><br/><br/>"+
             "070 7945070"
-        $(".popup-contact").css("background-color", "rgba(255, 255, 255, 0.31)");
-        //$(".popup-contact").css("border", "1px white solid");
-        $(".popup-contact>i").show();
-        $(".popup-contact>.text").html(textContact);
+        $(".popup").css("background-color", "rgba(255, 255, 255)");
 
-
+        $(".popup>i").show();
+        $(".popup").show();
+        $(".popup>.text").html(textContact);
     });
 
     $(".fa-times").click(function(){
-        $(this).parents('.pop').css("background-color", "rgba(255, 255, 255, 0.00)");
+        $(this).parents('.popup').css("background-color", "rgba(255, 255, 255, 0.00)");
         $(this).hide();
         $(this).next().children().remove();
 
-    });*/
+    });
 
 
 
