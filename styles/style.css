@@ -5,8 +5,6 @@
 body{
     padding:0;
     margin:0;
-
-
 }
 
 #container{
@@ -20,15 +18,12 @@ body{
     max-width: 100%;
     height:100%;
     min-height:100vh;
-
 }
 #content{
     background-color: rgba(0, 0, 0, 0.60);
     height:100%;
     min-height:100vh;
 }
-
-
 
 .fa-github{
     color:white;
@@ -37,7 +32,6 @@ body{
     color:#ffa700;
     cursor: pointer;
 }
-
 
 #start{
     position: center;
@@ -70,7 +64,6 @@ body{
     color: #4763a1;
 }
 
-
 #flex-wrapper{
     display:flex;
     justify-content: space-between;
@@ -83,18 +76,19 @@ body{
     text-align:center;
     border-radius:30px;
 }
-.text>p{
-
-    padding:5px;
-    transition: 1s;
-}
-
 
 .text{
     font-family: 'Poppins', sans-serif;
     color:black;
 }
-
+.text>a{
+    color:black;
+}
+.text>p{
+    display:inline-block;
+    padding:5px;
+    transition: 1s;
+}
 .fa-times{
     float:right;
     margin-right:15px;
@@ -106,19 +100,15 @@ body{
     cursor:pointer;
     transform: rotate(20deg);
 }
-.text>a{
-    color:black;
-}
-
 #buttons{
     display:flex;
-    justify-content: space-evenly;
-    padding-top: 5vh;
-    text-decoration: none;
+    justify-content:space-evenly;
+    padding-top:5vh;
+    text-decoration:none;
     max-width:900px;
     margin:0 auto;
-
 }
+
 .button:nth-child(2){
     background-color:#ffa700;
 }
@@ -131,7 +121,6 @@ body{
     outline:none;
     background-color:white;
 }
-
 .button:hover{
     background-color:#ffa700;
     cursor: pointer;
@@ -139,8 +128,6 @@ body{
 .button:hover:nth-child(2){
     background-color:white;
 }
-
-
 
 @media only screen and (max-width: 1600px) {
     .popup-aboutme{
@@ -178,12 +165,6 @@ body{
         padding-bottom: 20px;
         background: black;
         color: white;
-
-    }
-    .socialIcons {
-        justify-content: center;
-        margin-left:0;
-
     }
     .button:hover:nth-child(2){
         background-color:#ffa700;
@@ -191,11 +172,15 @@ body{
     .button:nth-child(2){
         background-color:black;
     }
+
+    .socialIcons {
+        justify-content: center;
+        margin-left:0;
+    }
+
     .popup{
         margin-top:10vh;
     }
-
-
 }
 
 

@@ -11,10 +11,10 @@ $( document ).ready(function() {
 
 
     $( ".about-button" ).click(function() {
-        var textAboutMe = "<p>\n" +
-            "Hej!<br/><br/>\n" +
-            "Martin heter jag, 25år och bosatt i Göteborg.<br/>\n" +
-            "Pluggar just nu webbutveckling inom e-handel på Medieinstitutet och extrajobbar som webbutvecklare på Direktonline.<br/>\n" +
+        var textAboutMe = "<p>" +
+            "Hej!<br/><br/>" +
+            "Martin heter jag, 25år och bosatt i Göteborg.<br/>" +
+            "Pluggar just nu webbutveckling inom e-handel på Medieinstitutet och extrajobbar som webbutvecklare på Direktonline.<br/>" +
             "Brinner för teknik och utveckling\n" +
             "</p>";
         $(".popup").css("background-color", "white");
@@ -24,9 +24,13 @@ $( document ).ready(function() {
     });
 
     $( ".contact-button" ).click(function() {
-        var textContact = "<p>Martin Myrmarker<br/><br/>"+
-            "<a href='mailto:martin@myrmarker.se'>martin@myrmarker.se</a><br/><br/>"+
-            "070 7945070";
+        var textContact = "<p>" +
+            "<br/>Martin Myrmarker<br/><br/>" +
+            "<a href='mailto:martin@myrmarker.se'>martin@myrmarker.se</a><br/><br/>" +
+            "070 7945070" +
+            "</p>";
+
+
         $(".popup").css("background-color", "white");
         $(".popup>i").show();
         $(".popup>.text").html(textContact);

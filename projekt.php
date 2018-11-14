@@ -2,29 +2,38 @@
 <html>
     <head>
         <title>Martin Myrmarker | Webbutvecklare</title>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="/styles/projekt.css">
     </head>
 <body>
-<div class = "container-fluid">
-    <div class="row">
-        <div class="goback">
-            <div class="goback-content">
-                as
-            </div>
-        </div>
-    </div>
-</div>
+    <nav class="navbar">a</nav>
+
+    <h1 class="header">Mina projekt</h1>
+    <hr>
     <div class="container">
         <div class="row">
-            <div style="background-color:red" class="col-sm-8">col-8</div>
-            <div style="background-color:blue"  class="col-sm-4">col-4</div>
+            <div  class="col-sm-6">
+                <img width="100%" src="./image/alfosystems.png">
+            </div>
+            <div class="col-sm-6 project-text">
+                <p>
+                    asdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spok
+                </p>
+            </div>
         </div>
         <div class="row">
-                  <div style="background-color:red" class="col-sm-8">col-8</div>
-                  <div style="background-color:blue"  class="col-sm-4">col-4</div>
+                  <div class="col-sm-6 project-text">
+                      <p>
+                          asdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spok
+                      </p>
+                  </div>
+                  <div class="col-sm-6">
+                      <img width="100%" height="100%" src="./image/alfosystems.png">
+                  </div>
+
         </div>
         <div class="row">
 

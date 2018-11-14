@@ -1,7 +1,39 @@
 body{
     margin:0;
     padding:0;
+    background-image: url("../image/macOS-Mojave-MacBook-Pro.jpg");
 }
+.container{
+    margin-top:20px;
+}
+.navbar{
+    background-color:black;
+}
+.header{
+    text-align:center;
+    color: rgb(255, 167, 0);
+}
+hr{
+    background-color:rgb(255, 167, 0);
+    height:2px;
+    text-align:center;
+    width:300px;
+}
+.project-text{
+    margin-top:30px;
+    background-color: black;
+}
+.project-text p{
+    padding:30px;
+    color:white;
+}
+.col-sm-6{
+    margin:15px 0px;
+    padding: 0;
+}
+
+
+
 .goback{
     background-color:black;
     height:60px;
