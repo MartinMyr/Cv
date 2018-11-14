@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+}
+.goback{
+    background-color:black;
+    height:60px;
+    width:15px;
+    position: fixed;
+    display: inline-block;
+    left:0;
+    margin-top:30vh;
+}
+.goback-content{
+    height:60px;
+    width:40px;
+    background-color:black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.goback:hover .goback-content{
+    display:block;
+}

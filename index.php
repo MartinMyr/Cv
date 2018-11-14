@@ -12,16 +12,16 @@
             <i class="fab fa-github fa-3x"></i>
         </div>
 
-        <div class="boxes">
-            <div class="popup">
-                <i class="fas fa-times fa-1x"></i>
-                <div class="text"></div>
-            </div>
-        </div>
+
             <div id="start">
                 <h1 class="start-text">Martin</h1>
                 <h1 class="start-text">Myrmarker</h1>
                 <p class="start-p">PROGRAMMING - BACKEND - FRONTEND</p>
+            </div>
+
+            <div class="popup">
+                <i class="fas fa-times fa-1x"></i>
+                <div class="text"></div>
             </div>
 
         <div id="buttons">

@@ -5,6 +5,8 @@
 body{
     padding:0;
     margin:0;
+
+
 }
 
 #container{
@@ -51,7 +53,7 @@ body{
 .start-p{
     line-height:0px;
     color:#ffa700;
-    font-family:"bebasneue" ;
+    font-family:"bebasneue";
     font-size:56px;
     margin-top:-45px;
 }
@@ -73,36 +75,26 @@ body{
     display:flex;
     justify-content: space-between;
 }
-
 .popup{
+    margin:0 auto;
     width:330px;
     height:300px;
-    margin-top:20vh;
+    margin-top:5vh;
     text-align:center;
     border-radius:30px;
-    transition: 1s;
-
 }
 .text>p{
+
     padding:5px;
     transition: 1s;
 }
 
-.boxes{
-    z-index: 1;
-    position:absolute;
-    width:100vw;
-    height:270px;
-    justify-content: center;
-    display:flex;
-}
+
 .text{
     font-family: 'Poppins', sans-serif;
     color:black;
 }
-.popup>.text{
-    margin-top:7vh;
-}
+
 .fa-times{
     float:right;
     margin-right:15px;
