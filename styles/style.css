@@ -70,7 +70,7 @@ body{
 }
 .popup{
     margin:0 auto;
-    width:330px;
+    width:550px;
     height:300px;
     margin-top:5vh;
     text-align:center;
@@ -79,7 +79,7 @@ body{
 
 .text{
     font-family: 'Poppins', sans-serif;
-    color:black;
+    color:white;
 }
 .text>a{
     color:black;
@@ -93,7 +93,7 @@ body{
     float:right;
     margin-right:15px;
     margin-top:7px;
-    color:black;
+    color:white;
 }
 .fa-times:hover{
     color:#ffa700;

@@ -17,7 +17,6 @@ $( document ).ready(function() {
             "Pluggar just nu webbutveckling inom e-handel på Medieinstitutet och extrajobbar som webbutvecklare på Direktonline.<br/>" +
             "Brinner för teknik och utveckling\n" +
             "</p>";
-        $(".popup").css("background-color", "white");
         $(".popup>i").show();
         $(".popup>.text").html(textAboutMe);
         $(".popup").slideDown(1000);
@@ -29,9 +28,6 @@ $( document ).ready(function() {
             "<a href='mailto:martin@myrmarker.se'>martin@myrmarker.se</a><br/><br/>" +
             "070 7945070" +
             "</p>";
-
-
-        $(".popup").css("background-color", "white");
         $(".popup>i").show();
         $(".popup>.text").html(textContact);
         $(".popup").slideDown(1000);
