@@ -19,29 +19,15 @@
     <hr>
     <div class="container">
         <div class="row">
-            <div  class="col-sm-6">
-                <img width="100%" height="100%" src="./image/alfosystems.png">
+            <div  class="col-lg-6">
+                <a target="_blank" href="https://alfosystems.se/"><img width="100%" height="100%" src="./image/alfosystems.png"></a>
             </div>
-            <div class="col-sm-6 project-text">
+            <div class="col-lg-6 project-text">
                 <h3 style="text-align:center;">Alfosystems</h3>
                 <p>Sidan är gjord med hjälp av Wordpress och designen är ändrad från ett befinntligt tema med ett child theme som är aktivt.</br>
                     En del css är ändrar men även en del php för att kunna få allt efter kundens begär.
                 </p>
             </div>
-        </div>
-        <div class="row">
-                  <div class="col-sm-6 project-text">
-                      <p>
-                          asdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spokasdasdopaks pasokd poask dpoka spok
-                      </p>
-                  </div>
-                  <div class="col-sm-6">
-                      <img width="100%" height="100%" src="./image/alfosystems.png">
-                  </div>
-
-        </div>
-        <div class="row">
-
         </div>
     </div>
 <link rel="stylesheet" type="text/css" href="/styles/style.css">

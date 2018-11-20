@@ -1,7 +1,16 @@
 body{
     margin:0;
     padding:0;
-    background-image: url("../image/macOS-Mojave-MacBook-Pro.jpg");
+    background-image: url("../image/project-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    max-width: 100%;
+    height:100%;
+    min-height:100vh;
 }
 .container{
     margin-top:20px;
@@ -27,36 +36,25 @@ h3{
 }
 .project-text{
     margin-top:30px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 .project-text p{
     padding:30px;
     color:white;
 }
-.col-sm-6{
-    margin:15px 0px;
+.col-lg-6{
+    margin:15px 0;
     padding: 0;
 }
 
-
-
-.goback{
-    background-color:black;
-    height:60px;
-    width:15px;
-    position: fixed;
-    display: inline-block;
-    left:0;
-    margin-top:30vh;
-}
-.goback-content{
-    height:60px;
-    width:40px;
-    background-color:black;
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
-.goback:hover .goback-content{
-    display:block;
+@media (max-width: 992px){
+    .row{
+        flex-direction: row;
+    }
+    .row :nth-child(1){
+        order: 1;
+    }
+    .row :nth-child(2){
+        order:2;
+    }
 }
