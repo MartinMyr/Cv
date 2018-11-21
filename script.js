@@ -35,9 +35,9 @@ $( document ).ready(function() {
 
     $(".fa-times").click(function(){
         $(this).parents('.popup').css("background-color", "rgba(255, 255, 255, 0.00)");
+        $(this).parents('.popup').css("border", "none");
         $(".popup").hide(1000);
         $(this).hide();
-
         $(this).next().children().remove();
 
     });
